@@ -61,11 +61,18 @@ section {
 /* LAYOUT
 /*******************************************/
 
+#logoQR {
+  max-width: 90%;
+  max-height: 45px;
+  padding:0;
+}
+
 header > ul {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-around;
+  max-height: 45px;
 }
 
 .headerButton {
@@ -444,6 +451,12 @@ header{
 
   /**Header List**/
 
+  #logoQR  {
+    height: 90%;
+    width: auto;
+    padding-top: 3px;
+  }
+
   header  {
     height: 60px;
   }
@@ -535,6 +548,12 @@ header{
 
   /**Header List**/
 
+  
+  #logoQR {
+    height: 65px;
+    padding-top: 1px;
+  }
+
   header  {
     height: 70px;
   }
@@ -547,7 +566,7 @@ header{
 
   header > ul > li {
     font-size: 15px;
-    width: 45px;
+    width: auto;
     height: 90%;
     padding: 0;
   }
